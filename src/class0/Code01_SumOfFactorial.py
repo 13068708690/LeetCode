@@ -11,7 +11,7 @@ def calSumOfFactorial(n):
         return factor_sum
     else:
         for i in range(1, n+1):
-            factor = factor * i
+            factor = factor * idq
             factor_sum = factor_sum+factor
         return factor_sum
 
